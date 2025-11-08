@@ -267,5 +267,12 @@ public class BaseClass {
 			String gen = RandomStringUtils.randomAlphabetic(5);
 			return gen;
 		}
+		
+		// to generate randomString
+				public String randomeString(int n) {
+
+					String gen = RandomStringUtils.randomAlphabetic(n);
+					return gen;
+				}
 
 }
